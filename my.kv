@@ -48,5 +48,15 @@
                 size_hint: (.2, 1)
                 on_press: root.saveAs()
 
+            Button:
+                text: "Move Current File"
+                size_hint: (.2, 1)
+                on_press: root.moveFile()
+
+        Label:
+            id: file_open
+            text:"No Open File"
+            size_hint: (1, .04)
+
         TextInput:
             id: text_input
